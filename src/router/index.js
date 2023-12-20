@@ -18,7 +18,7 @@ const routes = [ //routes are going to be the destination
   {
     path: '/resume',
     name: 'resume',
-    component: () => import ('../views/ResumeView.vue')
+    component: () => import ('../views/ResumeView.vue') //only one component NOT COMPONENTS
   },
   {
     path: '/projects',
