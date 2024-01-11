@@ -1,5 +1,5 @@
 import { createStore } from 'vuex'
-const dataUrl = 'https://tlcgeyer.github.io/vue-portfolioData/data/'
+const dataUrl = 'https://tlcgeyer.github.io/vue-portfolioDummyData/data/'
 export default createStore({
   state: {
     jobTitle: null, //defining varibales
